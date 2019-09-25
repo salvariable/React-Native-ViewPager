@@ -17,7 +17,6 @@ const SCROLL_STATE = {
     dragging: 'dragging'
 }
 export default class ViewPager extends Component {
-    static propTypes = {...ViewPagerAndroid.propTypes}
 
     static defaultProps = {
         initialPage: 0,
